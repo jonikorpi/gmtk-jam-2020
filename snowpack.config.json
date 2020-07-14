@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "mount:public": "mount public --to /",
+    "mount:web_modules": "mount web_modules",
+    "mount:source": "mount source --to /_dist_"
+  },
+  "plugins": [["@snowpack/plugin-webpack"]],
+  "installOptions": {},
+  "devOptions": {}
+}

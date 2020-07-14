@@ -1,0 +1,40 @@
+html {
+  background-color: white;
+  color: white;
+}
+
+body {
+  overflow: hidden;
+}
+
+.no-events {
+  pointer-events: none;
+}
+
+.events {
+  pointer-events: all;
+}
+
+canvas {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
+  animation: fade-in 618ms ease-out;
+  animation-fill-mode: both;
+  image-rendering: optimizeSpeed;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
