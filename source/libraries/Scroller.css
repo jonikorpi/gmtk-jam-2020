@@ -1,0 +1,25 @@
+.Scroller-scroller {
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  scroll-chaining: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  touch-action: manipulation;
+  cursor: grab;
+}
+
+.Scroller-scroller:active {
+  cursor: grabbing;
+}
+
+.Scroller-scroller::-webkit-scrollbar {
+  display: none;
+}
+
+.Scroller-scrollArea {
+  pointer-events: none;
+  visibility: hidden;
+}

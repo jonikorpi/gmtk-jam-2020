@@ -1,0 +1,23 @@
+{
+  "engines": {
+    "node": "12.x"
+  },
+  "publishConfig": {
+    "access": "private"
+  },
+  "scripts": {
+    "prepare": "snowpack",
+    "start": "snowpack dev --no-hmr",
+    "build": "snowpack build --bundle"
+  },
+  "devDependencies": {
+    "parcel-bundler": "latest",
+    "snowpack": "latest"
+  },
+  "dependencies": {
+    "react": "16.13.1",
+    "react-dom": "^16.13.1",
+    "perspective-camera": "^2.0.1",
+    "@snowpack/plugin-webpack": "^1.5.0"
+  }
+}

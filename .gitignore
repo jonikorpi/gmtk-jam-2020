@@ -1,0 +1,4 @@
+snowpack.lock.json
+.build
+build
+web_modules
